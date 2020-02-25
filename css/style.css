@@ -1,0 +1,285 @@
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter !important;
+  }
+}
+
+body{
+	font-family: Asap, Arial, sans-serif;
+	background-color: #FFF;
+	color: black;
+	margin: 0px;
+}
+
+a.divlink {
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.adSize{
+	width: 300px;
+	height: 250px;
+}
+
+#banner {
+	position: absolute;
+	background: white;
+	overflow: hidden; 
+	opacity: 0;
+	cursor: pointer;
+}
+
+#bg{
+	background-color: #e20074;
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px; 
+	top: 0px;
+}
+
+#brand_logo{
+	position:absolute;
+	width: 250px;
+	height: 42px;
+	left: 28px; 
+	top: 101px;	
+}
+
+#click_tag{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px; 
+	top: 0px;
+}
+
+#border{
+	top: 0px;
+  left: 0px;
+	position:absolute;	
+    border: solid 1px #666;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    pointer-events: none;
+}
+
+/* ---- Banner Content --- */
+
+#logo1_1 {
+	background: no-repeat url("../images/logo1_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+#logo2_1 {
+	background: no-repeat url("../images/logo2_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+#logo2_2 {
+	background: no-repeat url("../images/logo2_2.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+#logoGlow2_1 {
+	background: no-repeat url("../images/logoGlow2_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+#text3_1 {
+	background: no-repeat url("../images/text3_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+#text3_2 {
+	background: no-repeat url("../images/text3_2.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+#text3_3 {
+	background: no-repeat url("../images/text3_3.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+#bracket2_1 {
+	background: no-repeat url("../images/bracket2_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+#gradient2_1 {
+	background: no-repeat url("../images/gradient2_1.png");
+	position:absolute;
+	width: 300px;
+	height: 120px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+#gradient2_2 {
+	background: no-repeat url("../images/gradient2_2.png");
+	position:absolute;
+	width: 300px;
+	height: 120px;
+	rotate: 180;
+	left: 0px; 
+	top: 0px;
+	background-size: contain; 
+}
+
+#mask2_1 {
+	width: 300px;
+	height: 250px;
+	background: #E20074;
+	position:absolute;
+	left: 0px; 
+	top: 0px;
+}
+
+#mask2_2 {
+	width: 300px;
+	height: 250px;
+	background: #E20074;
+	position:absolute;
+	left: 0px; 
+	top: 0px;
+	/* border: 1px solid green; */
+}
+
+#mask3_1 {
+	background: no-repeat url("../images/mask3_1.png");
+	width: 300px;
+	height: 250px;
+	position:absolute;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+
+#text3_1 {
+	background: no-repeat url("../images/text3_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+#text3_2 {
+	background: no-repeat url("../images/text3_2.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+#text3_3 {
+	background: no-repeat url("../images/text3_3.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+#cta3_1 {
+	background: no-repeat url("../images/cta3_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+
+#legal3_1 {
+	background: no-repeat url("../images/legal3_1.png");
+	position:absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px; 
+	top: 0px;
+	background-size: contain;
+}
+
+/* ---- Banner Content ^ --- */
+
+.verticalAlignCenter{
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+}
